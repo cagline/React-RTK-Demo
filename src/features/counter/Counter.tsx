@@ -20,6 +20,7 @@ export function Counter() {
 
   return (
     <div>
+      <h4 style={{}}>Counter Slice</h4>
       <div className={styles.row}>
         <button
           className={styles.button}
