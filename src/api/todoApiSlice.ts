@@ -10,7 +10,7 @@ interface ToDo {
 export const apiSlice = createApi({
     reducerPath: 'todo',
     baseQuery: baseQueryWithReauth,
-    tagTypes: ['todo'],
+    tagTypes: ['todo'], // There are some other advance cache Recipes like > Optimistic Updates > Pessimistic Updates ...
     endpoints: builder => ({
         getToDos: builder.query<any, number | void>({
             query: (_limit = 10) => ({

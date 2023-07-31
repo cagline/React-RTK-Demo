@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Todo/>
+        <hr style={{width: '100%', height: '0px',border: 'solid 1px #CCCCCC'}} />
         <Counter />
       </header>
     </div>
